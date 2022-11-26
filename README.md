@@ -1,6 +1,13 @@
-## Um lugar de paz para acompanhar a hora com belas frases, onde o background muda de acordo com a divisão do dia
+## Contador de horas.
 
-Este Projeto foi feito com HTML/CSS e Javascript.
+<p>Este Projeto foi feito com HTML/CSS e Javascript.</p>
+Ele possui 4 estilos :
+ 00:00 = <strong>dawn</strong> | 
+| 06:00 = <strong>morning</strong> | 
+| 12:00 = <strong>afternoon</strong> |
+| 18:00 = <strong>night</strong> |
+<p>Ele seta o estilo e atualiza automaticamente, e também
+possui uma integração de api de frases aleátorias em inglês.<p>
 
 <h2 align="center"><strong>Preview</strong></h2>
 <div align="center">
