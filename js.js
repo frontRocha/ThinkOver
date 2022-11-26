@@ -20,7 +20,6 @@ const fetchApi = async () => {
         phrase.innerHTML += `<p>${data.slip.advice}</p>`
     }, 3000)
 }
-
 const relogio = setInterval(function time() {
     let dateToday = new Date();
     let hr = dateToday.getHours();
@@ -40,10 +39,10 @@ const relogio = setInterval(function time() {
     date.textContent = `${objMonth[dateToday.getMonth()].substring(0, 3)} / ${year}`
     day.textContent = objDays[dateToday.getDay()]
 
-    if(hr >= 0) {
-        theme.classList.add('dawn')
-    }
+    setTheme(hr)
+})
 
+function setTheme(hr) {
     if(hr >= 6) {
         theme.classList.remove('dawn')
         theme.classList.add('morning')
@@ -58,9 +57,8 @@ const relogio = setInterval(function time() {
         theme.classList.remove('afternoon')
         theme.classList.add('night')
     }
-})
-
-button.addEventListener('click', fetchApi)
+    theme.classList.add('dawn')
+}
 
 
 
