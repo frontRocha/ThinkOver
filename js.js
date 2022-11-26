@@ -60,7 +60,3 @@ function setTheme(hr) {
     }
     theme.classList.add('dawn')
 }
-
-
-
-
