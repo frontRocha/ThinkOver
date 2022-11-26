@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    max-width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#phrase {
+    font-weight: normal;
+    max-width: 300px
+}
+
+span {
+    margin: 5px;
+}
+
+.dawn {
+    background: rgb(33,3,3);
+    background: linear-gradient(0deg, rgba(33,3,3,1) 0%, rgba(10,23,41,1) 37%, rgba(0,31,57,1) 82%, rgba(0,17,31,1) 100%);
+    color: white;
+}
+
+.dawn button {
+    padding: 0.70rem 2rem;
+    background: rgb(33,3,3);
+    color: white;
+    border-radius: 10px;
+    margin-top: 5em;
+    margin-bottom: 2em
+}
+
+.dawn button:hover {
+    cursor: pointer;
+}
+
+#theme.dawn > .content > .time {
+    color: black;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(33,3,3);
+    background: rgb(33,3,3);
+    background: linear-gradient(184deg, rgba(33,3,3,1) 0%, rgba(10,23,41,1) 37%, rgba(0,31,57,1) 82%, rgba(0,17,31,1) 100%);
+    padding: 7rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
+}
+
+.morning {
+    background: rgb(7,75,79);
+    background: linear-gradient(0deg, rgba(7,75,79,1) 0%, rgba(0,64,121,1) 100%);
+}
+
+.morning button {
+    padding: 0.70rem 2rem;
+    background: rgb(7,75,79);
+    color: black;
+    border-radius: 10px;
+    margin-top: 5em;
+    margin-bottom: 2em
+}
+
+.morning button:hover {
+    cursor: pointer;
+}
+
+#theme.morning > .content > .time {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(7,75,79);
+    background: linear-gradient(180deg, rgba(7,75,79,1) 0%, rgba(0,64,121,1) 100%);
+    padding: 7rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
+}
+
+.afternoon {
+    background: rgb(0,78,255);
+    background: linear-gradient(0deg, rgba(0,78,255,1) 0%, rgba(0,194,255,1) 100%);
+}
+
+.afternoon button {
+    padding: 0.70rem 2rem;
+    background: rgb(0,78,255);
+    color: white;
+    border-radius: 10px;
+    margin-top: 5em;
+    margin-bottom: 2em
+}
+
+.afternoon button:hover {
+    cursor: pointer;
+}
+
+#theme.afternoon > .content > .time {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0,78,255);
+    background: linear-gradient(180deg, rgba(0,78,255,1) 0%, rgba(0,194,255,1) 100%);
+    padding: 7rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
+}
+
+.night {
+    background: rgb(33,108,150);
+    background: linear-gradient(0deg, rgba(33,108,150,1) 0%, rgba(25,81,113,1) 3%, rgba(0,6,13,1) 100%, rgba(0,0,0,1) 100%, rgba(0,150,255,1) 100%, rgba(3,37,64,1) 100%, rgba(2,31,57,1) 100%);
+    color: black;
+}
+
+.night button {
+    padding: 0.70rem 2rem;
+    background: rgb(33,108,150);
+    color: black;
+    border-radius: 10px;
+    margin-top: 5em;
+    margin-bottom: 2em
+}
+
+.night button:hover {
+    cursor: pointer;
+}
+
+#theme.night > .content > .time {
+    color: black;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(33,108,150);
+    background: linear-gradient(0deg, rgba(33,108,150,1) 0%, rgba(25,81,113,1) 33%, rgba(0,0,0,1) 100%, rgba(0,150,255,1) 100%, rgba(3,37,64,1) 100%, rgba(2,31,57,1) 100%, rgba(0,6,13,1) 100%);
+    padding: 7rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
+}
