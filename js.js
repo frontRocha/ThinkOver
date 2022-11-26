@@ -40,7 +40,7 @@ const relogio = setInterval(function time() {
     date.textContent = `${objMonth[dateToday.getMonth()].substring(0, 3)} / ${year}`
     day.textContent = objDays[dateToday.getDay()]
 
-    if(hr >= 2) {
+    if(hr >= 0) {
         theme.classList.add('dawn')
     }
 
