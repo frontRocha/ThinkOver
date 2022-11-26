@@ -1,6 +1,6 @@
 ## Um lugar de paz para acompanhar a hora com belas frases, onde o background muda de acordo com a divisão do dia
 
-Este foi feito com HTML/CSS e Javascript.
+Este Projeto foi feito com HTML/CSS e Javascript.
 
 <h2 align="center"><strong>Preview</strong></h2>
 <div align="center">
