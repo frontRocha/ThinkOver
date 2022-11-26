@@ -44,19 +44,20 @@ const relogio = setInterval(function time() {
 })
 
 function setTheme(hr) {
+
+    let classe = 'dawn'
+    
     if(hr >= 6) {
-        theme.classList.remove('dawn')
-        theme.classList.add('morning')
+        classe = 'morning'
     }
 
     if(hr >= 12) {
-        theme.classList.remove('morning')
-        theme.classList.add('afternoon')
+        classe = 'afternoon'
     }
 
     if(hr >= 18) {
-        theme.classList.remove('afternoon')
-        theme.classList.add('night')
+        classe = 'night'
     }
-    theme.classList.add('dawn')
+
+    theme.classList.add(classe)
 }
