@@ -20,6 +20,7 @@ const fetchApi = async () => {
         phrase.innerHTML += `<p>${data.slip.advice}</p>`
     }, 3000)
 }
+
 const relogio = setInterval(function time() {
     let dateToday = new Date();
     let hr = dateToday.getHours();
