@@ -47,19 +47,13 @@ function setTheme(hr) {
 
     let classe = ''
 
-    if(hr >= 0) {
-        classe = 'morning'
-    }
+    if(hr >= 0) classe = 'dawn'
 
-    if(hr >= 12) {
-        classe = 'afternoon'
-    }
+    if(hr >= 6) classe = 'morning'
 
-    if(hr >= 18) {
-        classe = 'night'
-    } else {
-        classe = 'dawn'
-    }
+    if(hr >= 12) classe = 'afternoon'
+
+    if(hr >= 18) classe = 'night'
 
     theme.classList.add(classe)
 
